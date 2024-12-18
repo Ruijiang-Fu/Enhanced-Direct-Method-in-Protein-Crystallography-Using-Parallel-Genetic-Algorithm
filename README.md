@@ -35,7 +35,7 @@ B. Download 6eik-sf.cif from www.rcsb.org, extract _refln.F_meas_au and _refln.F
 
 C. Refer to the paper "Improving the convergence rate of a hybrid input-output phasing algorithm by varying the reflection data weight" by He, H.; Su, W.-P. (Acta Cryst. A 2018, 74, 36–43. http://doi.org/10.1107/S205327331701436X) to generate 6eik_iter_sigm.txt.
 
-D. To modify the reconstructed electron density for histogram matching, select a protein (e.g., 6g6b) with similar resolution, average temperature factor, and secondary structure. Obtain the protein histogram for 6g6b to generate 6eik_hist.txt.
+D. To modify the reconstructed electron density for histogram matching, select a protein (e.g., 6g6e) with similar resolution, average temperature factor, and secondary structure. Compute the protein histogram for 6g6e to generate 6g6e_hist.txt.
 
 E. Set crystal parameters including a, b, c, alpha, beta, gamma, space group, cutoff resolution, estimated solvent content, and direct phasing parameters such as sigma for the weighted average density used in reconstructing the protein contour.
 
