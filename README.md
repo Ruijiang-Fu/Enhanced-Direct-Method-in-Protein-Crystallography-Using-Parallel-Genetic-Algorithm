@@ -16,6 +16,7 @@ Assuming a CPU with at least 10 cores, we recommend using 10 processes for mpiru
 To compile and execute the code, simply follow these commands:
 
 make
+
 mpirun -np 10 ./a.out
 
 (4) Preparing Input Files (Illustrated with Example 6eik):
