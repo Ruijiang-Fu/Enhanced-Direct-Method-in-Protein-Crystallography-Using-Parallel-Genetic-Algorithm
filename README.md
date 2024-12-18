@@ -39,10 +39,6 @@ D. To modify the reconstructed electron density for histogram matching, select a
 
 E. Set crystal parameters including a, b, c, alpha, beta, gamma, space group, cutoff resolution, estimated solvent content, and direct phasing parameters such as sigma for the weighted average density used in reconstructing the protein contour.
 
-When the PDB structure is unknown, and direct phasing is the goal, the required input files are:
-6eik_uniq_sf.txt
-6eik_iter_sigm.txt
-6g6e_hist.txt
-crysPara.hpp
+When the protein structure is unknown, to perform direct phasing of the crystal, the necessary input files include: 6eik_uniq_sf.txt, 6eik_iter_sigm.txt, 6g6e_hist.txt, and crysPara.hpp.
 
-By adhering to these instructions, users can effectively utilize the software for protein crystal direct phasing.
+As direct phasing parameters, such as solvent content and reference histogram settings, may need to be adjusted and tested for different crystal structures, which requires a certain level of experience, we strongly recommend sending your experimental data to hehongxing@nbu.edu.cn. We will endeavor to adjust the parameters and solve for the phases on your behalf. Please be assured that your experimental data will not be disclosed without your explicit permission.
